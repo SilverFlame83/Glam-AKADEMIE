@@ -20,6 +20,7 @@ nav {
 }
 
 .logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: #fff;
     font-size: 30px;
@@ -29,12 +30,12 @@ nav {
 }
 
 .logo:hover {
-    color: #910303;
+    color: #5f0303;
 }
 
 .nav-links {
     text-align: right;
-    background: #910303;
+    background: #5f0303;
     padding: 10px 30px;
     border-bottom-left-radius: 28px;
 }

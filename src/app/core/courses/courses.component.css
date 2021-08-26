@@ -91,3 +91,32 @@ div {
     letter-spacing: 1px;
     z-index: 1;
 }
+
+.bottom-container {
+    display: flex;
+    background-color: #5f0303;
+    margin: 100px 100px;
+    position: relative;
+}
+
+.bottom-text {
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    padding: 60px 450px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.brands {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    padding: 50px 73px;
+    /* margin: 20px 40px; */
+    width: 200px;
+    height: 200px;
+}
