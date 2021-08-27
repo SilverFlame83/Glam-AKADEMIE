@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img {
+    max-width: 100%
+}
+
+.image {
+    flex-basis: 250%;
+    order: 2;
+}
+
+h1 {
+    color: black;
+}
+
+.text {
+    display: inline-block;
+    color: gray;
+    padding: 100px 250px;
+    padding-left: 20px;
+    font: italic 15px "Fira Sans", serif;
+    text-align: justify;
+}
+
+.button {
+    background-color: #830505;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 3
+}

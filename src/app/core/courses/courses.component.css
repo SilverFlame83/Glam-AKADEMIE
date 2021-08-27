@@ -68,8 +68,8 @@ div {
 
 .course img {
     object-fit: cover;
-    width: 110%;
-    height: 110%;
+    width: 120%;
+    height: 120%;
     border-radius: 15px;
     transform-origin: 0 0;
     transition: all .5s ease;
@@ -114,9 +114,9 @@ div {
     display: inline-block;
 }
 
-img {
-    padding: 50px 73px;
-    /* margin: 20px 40px; */
+.img {
+    padding: 40px 5px;
+    margin: 20px 70px;
     width: 200px;
     height: 200px;
 }
