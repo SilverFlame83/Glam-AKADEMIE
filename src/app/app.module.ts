@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 import { AkademieModule } from './akademie/akademie.module';
 import { StartComponent } from './start/start.component';
+import { SharedComponent } from './shared/shared.component';
 
 
 
@@ -13,7 +14,8 @@ import { StartComponent } from './start/start.component';
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent
+    StartComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
